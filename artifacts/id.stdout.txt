@@ -1,0 +1,1 @@
+uid=1000(worker) gid=1000(worker) groups=1000(worker),65534(nogroup)

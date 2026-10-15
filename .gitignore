@@ -1,0 +1,15 @@
+# Path budget: 512 bytes. Keep the production export and lockfile included.
+!/dist/
+!/dist/**
+!/artifacts/
+!/artifacts/**
+**/node_modules/
+**/.vite/
+**/.cache/
+**/.npm/
+**/.pnpm-store/
+**/coverage/
+**/.playwright-mcp/
+**/playwright-report/
+**/test-results/
+/test/scratch/

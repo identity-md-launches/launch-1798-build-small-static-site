@@ -1,0 +1,67 @@
+{
+  "title": "Worker Node Reference",
+  "startedAt": "2026-10-15T00:40:57.151Z",
+  "completedAt": "2026-10-15T00:40:57.187Z",
+  "kind": "build-time snapshot",
+  "truncated": false,
+  "omitted": false,
+  "stdoutBytes": 917,
+  "commands": [
+    {
+      "id": "hostname",
+      "label": "Host name",
+      "command": "hostname",
+      "args": [],
+      "file": "hostname.stdout.txt",
+      "invocation": "hostname",
+      "capturedAt": "2026-10-15T00:40:57.159Z",
+      "exitCode": 0,
+      "bytes": 21,
+      "sha256": "cfb7cbc6ccd6fd584c43a91dfde8111f0424af9b5e1118ecc8d6e056f092e153",
+      "stdout": "identitymd-worker-01\n"
+    },
+    {
+      "id": "addresses",
+      "label": "Host addresses",
+      "command": "hostname",
+      "args": [
+        "-I"
+      ],
+      "file": "hostname-I.stdout.txt",
+      "invocation": "hostname -I",
+      "capturedAt": "2026-10-15T00:40:57.168Z",
+      "exitCode": 0,
+      "bytes": 35,
+      "sha256": "4f2bdee8c96531d2ca7173b65dc1b4eb71327438588560d0d39d35470f7e928f",
+      "stdout": "142.93.52.26 10.10.0.5 10.116.0.2 \n"
+    },
+    {
+      "id": "identity",
+      "label": "User identity",
+      "command": "id",
+      "args": [],
+      "file": "id.stdout.txt",
+      "invocation": "id",
+      "capturedAt": "2026-10-15T00:40:57.173Z",
+      "exitCode": 0,
+      "bytes": 69,
+      "sha256": "3e561529843e0a2fba6598677388191a881329975cdecb77a4bc3b450fdf266b",
+      "stdout": "uid=1000(worker) gid=1000(worker) groups=1000(worker),65534(nogroup)\n"
+    },
+    {
+      "id": "listeners",
+      "label": "Listening TCP sockets",
+      "command": "ss",
+      "args": [
+        "-ltn"
+      ],
+      "file": "ss-ltn.stdout.txt",
+      "invocation": "ss -ltn",
+      "capturedAt": "2026-10-15T00:40:57.186Z",
+      "exitCode": 0,
+      "bytes": 792,
+      "sha256": "d97353d42c8c5331bb562a2d9c34ea6342569686a23932ec1c9a465c7b3e19b2",
+      "stdout": "State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess\nLISTEN 0      511        127.0.0.1:37477      0.0.0.0:*          \nLISTEN 0      511          0.0.0.0:4173       0.0.0.0:*          \nLISTEN 0      511        127.0.0.1:41931      0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:22         0.0.0.0:*          \nLISTEN 0      511        127.0.0.1:42197      0.0.0.0:*          \nLISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          \nLISTEN 0      511        127.0.0.1:43585      0.0.0.0:*          \nLISTEN 0      511        127.0.0.1:35733      0.0.0.0:*          \nLISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          \nLISTEN 0      511        127.0.0.1:36007      0.0.0.0:*          \nLISTEN 0      4096            [::]:22            [::]:*          \n"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "worker-node-reference",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/capture.mjs && vite build && node scripts/finalize.mjs",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview --host 127.0.0.1",
+    "verify": "node scripts/verify.mjs",
+    "size": "node scripts/measure.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "7.3.1"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "scope": "All deliverable file contents, including this report. Excludes repository metadata, provided inputs, dependencies/caches, and disposable test/scratch.",
+  "totalBytes": 599616,
+  "exportBytes": 70171,
+  "budgetBytes": 8388608,
+  "remainingBytes": 7788992,
+  "truncated": false,
+  "omitted": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 272
+    },
+    {
+      "path": "artifacts/accessibility.json",
+      "bytes": 619
+    },
+    {
+      "path": "artifacts/design-guidance-LICENSE.txt",
+      "bytes": 11964
+    },
+    {
+      "path": "artifacts/design-probe.json",
+      "bytes": 62905
+    },
+    {
+      "path": "artifacts/export-manifest.json",
+      "bytes": 1761
+    },
+    {
+      "path": "artifacts/hostname-I.stdout.txt",
+      "bytes": 35
+    },
+    {
+      "path": "artifacts/hostname.stdout.txt",
+      "bytes": 21
+    },
+    {
+      "path": "artifacts/id.stdout.txt",
+      "bytes": 69
+    },
+    {
+      "path": "artifacts/interaction-results.json",
+      "bytes": 5915
+    },
+    {
+      "path": "artifacts/publication.json",
+      "bytes": 680
+    },
+    {
+      "path": "artifacts/screenshots/clipboard-fallback.png",
+      "bytes": 52617
+    },
+    {
+      "path": "artifacts/screenshots/desktop-1440.png",
+      "bytes": 79137
+    },
+    {
+      "path": "artifacts/screenshots/forced-colors-focus.png",
+      "bytes": 42823
+    },
+    {
+      "path": "artifacts/screenshots/keyboard-focus.png",
+      "bytes": 50917
+    },
+    {
+      "path": "artifacts/screenshots/mobile-390.png",
+      "bytes": 49855
+    },
+    {
+      "path": "artifacts/size-report.json",
+      "bytes": 3989
+    },
+    {
+      "path": "artifacts/ss-ltn.stdout.txt",
+      "bytes": 792
+    },
+    {
+      "path": "artifacts/validation.md",
+      "bytes": 12595
+    },
+    {
+      "path": "artifacts/worker-node.json",
+      "bytes": 2708
+    },
+    {
+      "path": "artifacts/worker-node.txt",
+      "bytes": 1060
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 8464
+    },
+    {
+      "path": "dist/artifacts/hostname-I.stdout.txt",
+      "bytes": 35
+    },
+    {
+      "path": "dist/artifacts/hostname.stdout.txt",
+      "bytes": 21
+    },
+    {
+      "path": "dist/artifacts/id.stdout.txt",
+      "bytes": 69
+    },
+    {
+      "path": "dist/artifacts/ss-ltn.stdout.txt",
+      "bytes": 792
+    },
+    {
+      "path": "dist/artifacts/worker-node.json",
+      "bytes": 2708
+    },
+    {
+      "path": "dist/artifacts/worker-node.txt",
+      "bytes": 1060
+    },
+    {
+      "path": "dist/assets/index-BdAvV9vN.js",
+      "bytes": 1878
+    },
+    {
+      "path": "dist/assets/index-CBge1_04.css",
+      "bytes": 9450
+    },
+    {
+      "path": "dist/favicon.svg",
+      "bytes": 255
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 9131
+    },
+    {
+      "path": "dist/share.png",
+      "bytes": 44772
+    },
+    {
+      "path": "index.html",
+      "bytes": 9084
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 35893
+    },
+    {
+      "path": "package.json",
+      "bytes": 519
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 255
+    },
+    {
+      "path": "public/share.png",
+      "bytes": 44772
+    },
+    {
+      "path": "README.md",
+      "bytes": 7495
+    },
+    {
+      "path": "scripts/capture.mjs",
+      "bytes": 4818
+    },
+    {
+      "path": "scripts/check-browser.mjs",
+      "bytes": 12408
+    },
+    {
+      "path": "scripts/finalize.mjs",
+      "bytes": 1432
+    },
+    {
+      "path": "scripts/measure.mjs",
+      "bytes": 2267
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "bytes": 2895
+    },
+    {
+      "path": "src/main.ts",
+      "bytes": 2197
+    },
+    {
+      "path": "src/page.html",
+      "bytes": 4120
+    },
+    {
+      "path": "src/share.svg",
+      "bytes": 968
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 10694
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 315
+    },
+    {
+      "path": "vite.config.mjs",
+      "bytes": 115
+    }
+  ]
+}

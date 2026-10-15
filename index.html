@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f5f1" />
+    <title>Worker Node Reference</title>
+    <meta name="description" content="A build-time reference of the worker node: verbatim host name, addresses, user identity, and listening TCP sockets. Read, copy, or download the complete outputs." />
+    <meta property="og:title" content="Worker Node Reference" />
+    <meta property="og:description" content="Four commands. One build-time snapshot. Read and download the complete worker node reference." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./share.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Worker Node Reference: hostname, hostname -I, id, and ss -ltn." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script type="module" src="./src/main.ts"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#reference">Skip to outputs</a>
+    <header class="site-header shell">
+      <a class="brand" href="#top" aria-label="Worker Node Reference home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="4" width="26" height="24" rx="5"/><path d="m9 11 5 5-5 5m9 0h5"/></svg><span>Worker Node Reference</span></a>
+      <span class="header-note">Build snapshot</span>
+    </header>
+    <main class="shell" id="top">
+      <div class="intro">
+        <div><h1>Worker Node Reference</h1><p class="description">The build machine, recorded in four commands.</p></div>
+        <a class="button primary-button" href="./artifacts/worker-node.txt" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/></svg>Download snapshot</a>
+      </div>
+      <div class="snapshot-meta"><span><span class="status-mark" aria-hidden="true"></span>Captured <time datetime="2026-10-15T00:40:57.151Z">2026-10-15 00:40:57 UTC</time></span><span>917 output bytes</span></div>
+      <div class="workspace">
+        <div class="reference" id="reference" tabindex="-1">
+          <div class="reference-toolbar"><span>Command outputs</span><label class="wrap-control" hidden><input id="wrap-lines" type="checkbox" checked />Wrap long lines</label></div>
+          <noscript><p class="no-script">All outputs and downloads work without JavaScript. Copy controls need JavaScript.</p></noscript>
+
+      <section class="command-section" id="hostname" aria-labelledby="hostname-heading">
+        <div class="command-heading">
+          <div class="command-label"><span class="index" aria-hidden="true">01</span><div><h2 id="hostname-heading">Host name</h2><p class="command-name"><code>hostname</code></p></div></div>
+          <button type="button" class="button copy-button" data-copy="hostname-output" aria-label="Copy hostname output" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M15 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h3"/></svg><span>Copy</span></button>
+        </div>
+        <pre class="output" id="hostname-output" tabindex="0" role="region" aria-label="hostname output"><samp>identitymd-worker-01
+</samp></pre>
+        <div class="output-meta"><span>21 bytes · Exit 0</span><a href="./artifacts/hostname.stdout.txt" download aria-label="Download output for hostname">Download output<span aria-hidden="true"> ↗</span></a></div>
+      </section>
+
+      <section class="command-section" id="addresses" aria-labelledby="addresses-heading">
+        <div class="command-heading">
+          <div class="command-label"><span class="index" aria-hidden="true">02</span><div><h2 id="addresses-heading">Host addresses</h2><p class="command-name"><code>hostname -I</code></p></div></div>
+          <button type="button" class="button copy-button" data-copy="addresses-output" aria-label="Copy hostname -I output" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M15 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h3"/></svg><span>Copy</span></button>
+        </div>
+        <pre class="output" id="addresses-output" tabindex="0" role="region" aria-label="hostname -I output"><samp>142.93.52.26 10.10.0.5 10.116.0.2 
+</samp></pre>
+        <div class="output-meta"><span>35 bytes · Exit 0</span><a href="./artifacts/hostname-I.stdout.txt" download aria-label="Download output for hostname -I">Download output<span aria-hidden="true"> ↗</span></a></div>
+      </section>
+
+      <section class="command-section" id="identity" aria-labelledby="identity-heading">
+        <div class="command-heading">
+          <div class="command-label"><span class="index" aria-hidden="true">03</span><div><h2 id="identity-heading">User identity</h2><p class="command-name"><code>id</code></p></div></div>
+          <button type="button" class="button copy-button" data-copy="identity-output" aria-label="Copy id output" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M15 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h3"/></svg><span>Copy</span></button>
+        </div>
+        <pre class="output" id="identity-output" tabindex="0" role="region" aria-label="id output"><samp>uid=1000(worker) gid=1000(worker) groups=1000(worker),65534(nogroup)
+</samp></pre>
+        <div class="output-meta"><span>69 bytes · Exit 0</span><a href="./artifacts/id.stdout.txt" download aria-label="Download output for id">Download output<span aria-hidden="true"> ↗</span></a></div>
+      </section>
+
+      <section class="command-section" id="listeners" aria-labelledby="listeners-heading">
+        <div class="command-heading">
+          <div class="command-label"><span class="index" aria-hidden="true">04</span><div><h2 id="listeners-heading">Listening TCP sockets</h2><p class="command-name"><code>ss -ltn</code></p></div></div>
+          <button type="button" class="button copy-button" data-copy="listeners-output" aria-label="Copy ss -ltn output" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M15 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h3"/></svg><span>Copy</span></button>
+        </div>
+        <pre class="output" id="listeners-output" tabindex="0" role="region" aria-label="ss -ltn output"><samp>State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+LISTEN 0      511        127.0.0.1:37477      0.0.0.0:*          
+LISTEN 0      511          0.0.0.0:4173       0.0.0.0:*          
+LISTEN 0      511        127.0.0.1:41931      0.0.0.0:*          
+LISTEN 0      4096         0.0.0.0:22         0.0.0.0:*          
+LISTEN 0      511        127.0.0.1:42197      0.0.0.0:*          
+LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+LISTEN 0      511        127.0.0.1:43585      0.0.0.0:*          
+LISTEN 0      511        127.0.0.1:35733      0.0.0.0:*          
+LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+LISTEN 0      511        127.0.0.1:36007      0.0.0.0:*          
+LISTEN 0      4096            [::]:22            [::]:*          
+</samp></pre>
+        <div class="output-meta"><span>792 bytes · Exit 0</span><a href="./artifacts/ss-ltn.stdout.txt" download aria-label="Download output for ss -ltn">Download output<span aria-hidden="true"> ↗</span></a></div>
+      </section>
+          <div class="integrity-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 12 3 3 5-6"/><circle cx="12" cy="12" r="9"/></svg><p>Complete output, preserved as captured.<br /><span>Nothing truncated or omitted. Downloads retain all whitespace.</span></p></div>
+        </div>
+        <aside class="sidebar">
+          <nav aria-label="Command outputs"><a href="#hostname"><span>Host name</span><span aria-hidden="true">01</span></a><a href="#addresses"><span>Host addresses</span><span aria-hidden="true">02</span></a><a href="#identity"><span>User identity</span><span aria-hidden="true">03</span></a><a href="#listeners"><span>Listening TCP sockets</span><span aria-hidden="true">04</span></a></nav>
+          <p>Captured at build time.<br />This page does not update live.</p>
+          <a class="text-link" href="./artifacts/worker-node.json" download>Download JSON <span aria-hidden="true">↗</span></a>
+        </aside>
+      </div>
+    </main>
+    <footer class="shell site-footer"><span>Worker Node Reference</span><span>UTF-8 · Snapshot download: 1,060 bytes</span></footer>
+    <div class="notification"><p role="status" aria-live="polite" aria-atomic="true"></p><button type="button" class="notification-close" aria-label="Dismiss message" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></div>
+  </body>
+</html>

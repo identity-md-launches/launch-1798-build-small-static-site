@@ -1,0 +1,11 @@
+{
+  "status": "awaiting-submission-plane",
+  "siteUrl": null,
+  "contentIdentifier": null,
+  "exportDirectory": "dist",
+  "exportBytes": 70171,
+  "attemptedCommand": "imd site publish dist --name worker-node-reference-0560c2f4",
+  "exitCode": 2,
+  "response": "refused: imd site publishes this contributor's own site, never a job's work. A job's website is hosted by the plane when the job completes: commit the source and the export in dist/ and submit. There is nothing to publish and nothing to ask an operator for.\n",
+  "limitation": "No public site URL or content identifier was returned. IdentityMD must publish the submitted export before those values can be reported."
+}
